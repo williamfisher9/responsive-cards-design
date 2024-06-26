@@ -98,9 +98,27 @@ body {
     scale: 1.1;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1200px) {
     .wrapper {
         flex-direction: row;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    body {
+        height: 100dvh;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 250px;
     }
 
     body {
